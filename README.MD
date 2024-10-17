@@ -20,7 +20,7 @@ First, clone this repository to your desired working directory:
 git clone <https://github.com/luque667788/Arm64_ASM_QEMU>
 cd <https://github.com/luque667788/Arm64_ASM_QEMU>
 ```
-Run the subsequent commands from within the clonedproject directory.
+Run the subsequent commands from within the cloned project directory.
 
 ### Step 1: Build the Docker Image
 
