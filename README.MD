@@ -3,6 +3,9 @@
 
 This project sets up a development environment for debugging an ARM64 application using QEMU and GDB within a Docker container. The setup uses tmux to manage multiple terminal panes for running QEMU and GDB simultaneously.
 
+**Note:** This project focuses on running just the binaries on the emulator and not whole operating systems. This means that all the compilation is cross-compilation, and the debugging is remote debugging using GDB. The GDB and the compiler are not emulated inside QEMU; they just are run inside Docker due to portability reasons.
+
+
 ## Prerequisites
 
 - Docker installed on your system.
@@ -46,7 +49,7 @@ This command will:
 - Start a tmux session with two panes.
 - Run QEMU in the left pane.
 - Run GDB in the right pane.
-- After setting the break point instead of typing run to run the program just type continue!
+- After setting the break point instead of typing `run` to run the program just type `continue` !
 - HINT: if you want you can already change the script run_debug.sh, so that is already sets the break point and continues for you so you don't need to type that every time if you want to.
 
 ### Step 5: Interact with the Terminals
@@ -88,7 +91,3 @@ make clean
 ```
 
 This command will remove the compiled files and binaries.
-
-## Summary
-
-This setup allows you to build, run, and debug your ARM64 application within a Docker container using tmux to manage multiple terminal panes. Follow the steps above to interact with both QEMU and GDB, provide input to your application, and clean up your project.
