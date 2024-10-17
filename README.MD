@@ -12,6 +12,16 @@ This project sets up a development environment for debugging an ARM64 applicatio
 
 ## Setup and Usage
 
+### Step 0: Clone the Repository
+
+First, clone this repository to your desired working directory:
+
+```sh
+git clone <https://github.com/luque667788/Arm64_ASM_QEMU>
+cd <https://github.com/luque667788/Arm64_ASM_QEMU>
+```
+Run the subsequent commands from within the clonedproject directory.
+
 ### Step 1: Build the Docker Image
 
 Build the Docker image using the provided Dockerfile.
