@@ -17,8 +17,8 @@ This project sets up a development environment for debugging an ARM64 applicatio
 First, clone this repository to your desired working directory:
 
 ```sh
-git clone <https://github.com/luque667788/Arm64_ASM_QEMU>
-cd <https://github.com/luque667788/Arm64_ASM_QEMU>
+git clone https://github.com/luque667788/Arm64_ASM_QEMU
+cd Arm64_ASM_QEMU
 ```
 Run the subsequent commands from within the cloned project directory.
 
