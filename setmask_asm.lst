@@ -1,0 +1,21 @@
+AARCH64 GAS  setmask_asm.asm 			page 1
+
+
+   1              	.global  setmask_asm
+   2              	
+   3              	setmask_asm:
+   4              	  // Move arguments to registers
+   5 0000 E90300AA 	  MOV X9, X0      /* take the argument a */
+   6 0004 EA0301AA 	  MOV X10, X1     /* get the mask */
+   7              	
+   8              	  // Store the number 66 in the first element of the array
+   9 0008 4B0880D2 	  MOV X11, #66
+  10 000c 4B0000F9 	  STR X11, [X2]
+  11              	
+  12              	  // Return status 0 (success)
+  13 0010 000080D2 	  MOV X0, #0      /* status return */
+  14 0014 C0035FD6 	  RET
+  15              	
+  16              	error:
+  17 0018 00008092 	  MOV X0, #-1     /* error exception */
+  18 001c C0035FD6 	  RET...
