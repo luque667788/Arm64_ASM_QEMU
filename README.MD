@@ -105,3 +105,12 @@ make clean
 ```
 
 This command will remove the compiled files and binaries.
+
+## License
+
+You are free to use, modify, and distribute this project for any purpose, as long as you:
+
+    Credit me, Luiz Mendonça, as the original creator.
+    Clearly mention that this project was used in your work (a link to this repository would be appreciated).
+
+No warranties or liability are provided. Use at your own risk!
