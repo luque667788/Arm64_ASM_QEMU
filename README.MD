@@ -1,9 +1,11 @@
 ### Project Overview
 # ARM64 Application Debugging Environment
 
-This project sets up a development environment for debugging an ARM64 application using QEMU and GDB within a Docker container. The setup uses tmux to manage multiple terminal panes for running QEMU and GDB simultaneously.
+This project sets up a development environment for debugging an ARM64 application using QEMU and GDB within a Docker container. The setup uses tmux to manage multiple terminal panes for running QEMU and GDB simultaneously. 
 
 **Note:** This project focuses on running just the binaries on the emulator and not whole operating systems. This means that all the compilation is cross-compilation, and the debugging is remote debugging using GDB. The GDB and the compiler are not emulated inside QEMU; they just are run inside Docker due to portability reasons.
+
+**Note 2:** Keep in mind that the program is running inside a Docker container. If you try to edit the original files, you will need to rebuild the entire container for the changes to take effect. To simplify this process, I recommend using the VS Code "Reopen in Container" feature. This allows you to edit files directly within the container using VS Code, eliminating the need for rebuilding.
 
 
 ## Prerequisites
