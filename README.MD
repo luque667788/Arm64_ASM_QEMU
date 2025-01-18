@@ -10,6 +10,16 @@ This project sets up a development environment for debugging an ARM64 applicatio
 **Note 3:** If you have different filenames for the C or assembly source files, you don't need to edit the Makefile. Simply update the env.mk file instead.
 
 
+## License
+
+You are free to use, modify, and distribute this project for any purpose, as long as you:
+
+- Credit me, Luiz Mendonça, as the original creator.
+- Clearly mention that this project was used in your work (a link to this repository would be appreciated).
+
+No warranties or liability are provided. Use at your own risk!
+
+
 ## Prerequisites
 
 - Docker installed on your system.
@@ -105,12 +115,3 @@ make clean
 ```
 
 This command will remove the compiled files and binaries.
-
-## License
-
-You are free to use, modify, and distribute this project for any purpose, as long as you:
-
-- Credit me, Luiz Mendonça, as the original creator.
-- Clearly mention that this project was used in your work (a link to this repository would be appreciated).
-
-No warranties or liability are provided. Use at your own risk!
