@@ -23,6 +23,7 @@ No warranties or liability are provided. Use at your own risk!
 ## Prerequisites
 
 - Docker installed on your system.
+- Basic knowledge on using the terminal/command prompt.
 
 ## Setup and Usage
 
