@@ -7,6 +7,8 @@ This project sets up a development environment for debugging an ARM64 applicatio
 
 **Note 2:** Keep in mind that the program is running inside a Docker container. If you try to edit the original files, you will need to rebuild the entire container for the changes to take effect. To simplify this process, I recommend using the VS Code "Reopen in Container" feature. This allows you to edit files directly within the container using VS Code, eliminating the need for rebuilding.
 
+**Note 3:** If you have different filenames for the C or assembly source files, you don't need to edit the Makefile. Simply update the env.mk file instead.
+
 
 ## Prerequisites
 
